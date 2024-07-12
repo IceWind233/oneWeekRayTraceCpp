@@ -6,6 +6,8 @@
 #include "camera.h"
 #include "material.h"
 
+#include <nanogui>
+
 double hit_sphere(const point3& center, double radius, const ray& r) {
     vec3 oc = center - r.origin();
     auto a = dot(r.direction(), r.direction());

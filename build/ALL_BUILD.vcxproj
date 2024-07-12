@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,6 +170,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\rayTraceCpp\build\ZERO_CHECK.vcxproj">
       <Project>{3E7E05C0-06EE-3156-88A7-80C12EEEEC72}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\rayTraceCpp\build\3rd\nanogui\ext_build\glfw\src\glfw_objects.vcxproj">
+      <Project>{93EBFF71-5086-3044-8C76-B38DFB695382}</Project>
+      <Name>glfw_objects</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\rayTraceCpp\build\3rd\nanogui\nanogui.vcxproj">
+      <Project>{0C812781-77F9-3B09-8967-A16F5D035F05}</Project>
+      <Name>nanogui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\rayTraceCpp\build\3rd\nanogui\nanogui-obj.vcxproj">
+      <Project>{4118B330-B14B-37F7-B6D6-C0A64FB78CBF}</Project>
+      <Name>nanogui-obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

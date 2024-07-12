@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4118B330-B14B-37F7-B6D6-C0A64FB78CBF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>nanogui-obj</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanogui-obj.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanogui-obj.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nanogui-obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanogui-obj.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanogui-obj.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nanogui-obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanogui-obj.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanogui-obj.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nanogui-obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanogui-obj.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanogui-obj.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nanogui-obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\rayTraceCpp\build\CMakeFiles\7cd76f590ae31e3f9a46c231e305b826\nanogui_resources.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Running bin2c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Bold.ttf,D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Regular.ttf,D:/rayTraceCpp/3rd/nanogui/resources/entypo.ttf -P D:/rayTraceCpp/3rd/nanogui/resources/bin2c.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Bold.ttf;D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Regular.ttf;D:\rayTraceCpp\3rd\nanogui\resources\entypo.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.cpp;D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running bin2c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Bold.ttf,D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Regular.ttf,D:/rayTraceCpp/3rd/nanogui/resources/entypo.ttf -P D:/rayTraceCpp/3rd/nanogui/resources/bin2c.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Bold.ttf;D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Regular.ttf;D:\rayTraceCpp\3rd\nanogui\resources\entypo.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.cpp;D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Running bin2c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Bold.ttf,D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Regular.ttf,D:/rayTraceCpp/3rd/nanogui/resources/entypo.ttf -P D:/rayTraceCpp/3rd/nanogui/resources/bin2c.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Bold.ttf;D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Regular.ttf;D:\rayTraceCpp\3rd\nanogui\resources\entypo.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.cpp;D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Running bin2c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Bold.ttf,D:/rayTraceCpp/3rd/nanogui/resources/Roboto-Regular.ttf,D:/rayTraceCpp/3rd/nanogui/resources/entypo.ttf -P D:/rayTraceCpp/3rd/nanogui/resources/bin2c.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Bold.ttf;D:\rayTraceCpp\3rd\nanogui\resources\Roboto-Regular.ttf;D:\rayTraceCpp\3rd\nanogui\resources\entypo.ttf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.cpp;D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\rayTraceCpp\3rd\nanogui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/rayTraceCpp/3rd/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -SD:/rayTraceCpp -BD:/rayTraceCpp/build --check-stamp-file D:/rayTraceCpp/build/3rd/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\rayTraceCpp\build\3rd\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/rayTraceCpp/3rd/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -SD:/rayTraceCpp -BD:/rayTraceCpp/build --check-stamp-file D:/rayTraceCpp/build/3rd/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\rayTraceCpp\build\3rd\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/rayTraceCpp/3rd/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -SD:/rayTraceCpp -BD:/rayTraceCpp/build --check-stamp-file D:/rayTraceCpp/build/3rd/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\rayTraceCpp\build\3rd\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/rayTraceCpp/3rd/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\zhang\scoop\apps\cmake\3.28.3\bin\cmake.exe -SD:/rayTraceCpp -BD:/rayTraceCpp/build --check-stamp-file D:/rayTraceCpp/build/3rd/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zhang\scoop\apps\cmake\3.28.3\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\rayTraceCpp\build\3rd\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src\nanovg.c">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4005;4456;4457;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4005;4456;4457;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4005;4456;4457;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4005;4456;4457;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\ext\glad\src\glad.c">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4055;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\ext\glad\include\glad\glad.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\ext\glad\include\KHR\khrplatform.h" />
+    <ClCompile Include="D:\rayTraceCpp\build\3rd\nanogui\nanogui_resources.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\glutil.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\glutil.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\common.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\common.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\widget.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\widget.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\theme.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\theme.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\layout.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\layout.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\screen.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\screen.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\label.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\label.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\window.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\window.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\popup.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\popup.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\checkbox.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\checkbox.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\button.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\button.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\popupbutton.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\popupbutton.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\combobox.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\combobox.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\progressbar.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\progressbar.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\slider.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\slider.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\messagedialog.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\messagedialog.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\textbox.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\textbox.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\imagepanel.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\imagepanel.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\imageview.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\imageview.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\vscrollpanel.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\vscrollpanel.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\colorwheel.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\colorwheel.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\colorpicker.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\colorpicker.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\graph.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\graph.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\stackedwidget.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\stackedwidget.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\tabheader.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\tabheader.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\tabwidget.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\tabwidget.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\glcanvas.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\glcanvas.cpp" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\formhelper.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\toolbutton.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\opengl.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\nanogui.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\serializer\core.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\serializer\opengl.h" />
+    <ClInclude Include="D:\rayTraceCpp\3rd\nanogui\include\nanogui\serializer\sparse.h" />
+    <ClCompile Include="D:\rayTraceCpp\3rd\nanogui\src\serializer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\rayTraceCpp\build\ZERO_CHECK.vcxproj">
+      <Project>{3E7E05C0-06EE-3156-88A7-80C12EEEEC72}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
