@@ -91,12 +91,12 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -124,15 +124,14 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -145,7 +144,6 @@
     </Midl>
     <Lib>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
@@ -161,15 +159,14 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -182,7 +179,6 @@
     </Midl>
     <Lib>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
@@ -199,13 +195,12 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;NANOGUI_SHARED;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NVG_BUILD;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\rayTraceCpp\3rd\nanogui\ext\glad\include;D:\rayTraceCpp\3rd\nanogui\ext\eigen;D:\rayTraceCpp\3rd\nanogui\ext\glfw\include;D:\rayTraceCpp\3rd\nanogui\ext\nanovg\src;D:\rayTraceCpp\3rd\nanogui\include;D:\rayTraceCpp\build\3rd\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -218,7 +213,6 @@
     </Midl>
     <Lib>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
